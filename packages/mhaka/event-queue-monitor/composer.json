@@ -1,0 +1,17 @@
+{
+    "name": "mhaka/event-queue-monitor",
+    "description": "\"Events & Queue Jobs\"",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Mhaka\\EventQueueMonitor\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "mhaka",
+            "email": "merli_haka.fshnstudent@unitir.edu.al"
+        }
+    ],
+    "require": {}
+}
