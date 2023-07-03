@@ -1,0 +1,17 @@
+{
+    "name": "event-queue-logger",
+    "version": "1.0.0",
+    "private": true,
+    "scripts": {
+        "dev": "mix --env=development",
+        "watch": "mix watch --env=development",
+        "prod": "mix --env=production"
+    },
+    "dependencies": {
+        "axios": "^1.4.0",
+        "vue": "^3.3.4"
+    },
+    "devDependencies": {
+        "laravel-mix": "^6.0.49"
+    }
+}

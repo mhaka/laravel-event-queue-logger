@@ -1,10 +1,10 @@
 {
-    "name": "mhaka/event-queue-monitor",
-    "description": "\"Events & Queue Jobs\"",
+    "name": "mhaka/event-queue-logger",
+    "description": "Laravel package for logging events and queue jobs",
     "license": "MIT",
     "autoload": {
         "psr-4": {
-            "Mhaka\\EventQueueMonitor\\": "src/"
+            "Mhaka\\EventQueueLogger\\": "src/"
         }
     },
     "authors": [

@@ -4,17 +4,17 @@
 
 namespace Composer\Autoload;
 
-class ComposerStaticInit5beed3358482f1962966f5f08f5f8914
+class ComposerStaticInit5e37dba704bd91ea7d96d2a7ea601cb0
 {
     public static $prefixLengthsPsr4 = array (
         'M' => 
         array (
-            'Mhaka\\EventQueueMonitor\\' => 24,
+            'Mhaka\\EventQueueLogger\\' => 23,
         ),
     );
 
     public static $prefixDirsPsr4 = array (
-        'Mhaka\\EventQueueMonitor\\' => 
+        'Mhaka\\EventQueueLogger\\' => 
         array (
             0 => __DIR__ . '/../..' . '/src',
         ),
@@ -27,9 +27,9 @@ class ComposerStaticInit5beed3358482f1962966f5f08f5f8914
     public static function getInitializer(ClassLoader $loader)
     {
         return \Closure::bind(function () use ($loader) {
-            $loader->prefixLengthsPsr4 = ComposerStaticInit5beed3358482f1962966f5f08f5f8914::$prefixLengthsPsr4;
-            $loader->prefixDirsPsr4 = ComposerStaticInit5beed3358482f1962966f5f08f5f8914::$prefixDirsPsr4;
-            $loader->classMap = ComposerStaticInit5beed3358482f1962966f5f08f5f8914::$classMap;
+            $loader->prefixLengthsPsr4 = ComposerStaticInit5e37dba704bd91ea7d96d2a7ea601cb0::$prefixLengthsPsr4;
+            $loader->prefixDirsPsr4 = ComposerStaticInit5e37dba704bd91ea7d96d2a7ea601cb0::$prefixDirsPsr4;
+            $loader->classMap = ComposerStaticInit5e37dba704bd91ea7d96d2a7ea601cb0::$classMap;
 
         }, null, ClassLoader::class);
     }

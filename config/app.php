@@ -185,7 +185,7 @@ return [
         /*
          * Package Service Providers...
          */
-        Mhaka\EventQueueMonitor\Providers\EventQueueProvider::class,
+        Mhaka\EventQueueLogger\Providers\EventQueueProvider::class,
 
         /*
          * Application Service Providers...

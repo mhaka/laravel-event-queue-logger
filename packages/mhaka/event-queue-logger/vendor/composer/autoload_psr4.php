@@ -6,5 +6,5 @@ $vendorDir = dirname(__DIR__);
 $baseDir = dirname($vendorDir);
 
 return array(
-    'Mhaka\\EventQueueMonitor\\' => array($baseDir . '/src'),
+    'Mhaka\\EventQueueLogger\\' => array($baseDir . '/src'),
 );
